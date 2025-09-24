@@ -1,0 +1,139 @@
+.secao-contato {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 3rem 0rem;
+    background-color: var(--bgColor-claro);
+    padding-top: 5rem;
+}
+
+.contato {
+    width: 80%;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 2rem;
+    border-bottom: 3px solid #2563EB;
+    display: inline;
+    padding-bottom: 0.7rem;
+    color: var(--colorText-2);
+}
+
+/* -- contatos -- */
+.containers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-contantos {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contato .containers .cards {
+    display: flex;
+    gap: 2rem;
+}
+
+.contato .contact-logo img {
+    width: 2rem;
+}
+
+.contato .containers .cards .card-text {
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.contato .containers .cards .card-text span {
+    color: #A2A2A2;
+}
+
+.contato .containers .container-1,
+.container-2 {
+    margin-top: 4rem;
+    width: 40%;
+}
+
+/* -- conecte - se -- */
+.contato .conecte-se {
+    margin: 2rem 0rem;
+    background-color: var(--bgColor-escuro);
+    padding: 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: left;
+    gap: 1.5rem;
+    color: var(--colorTh-black);
+    font-weight: bold;
+}
+
+.contato .conecte-se div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+/* -- container 2 -- */
+.container-2 form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2.75rem;
+}
+
+.container-2 form div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: .4rem
+}
+
+.container-2 form div input,
+textarea {
+    padding: .5rem 1rem;
+    border-radius: .6rem;
+    color: var(--colorText-2);
+    border: none;
+    border: 1px solid #A2A2A2;
+    background-color: var(--bgColor-escuro);
+}
+
+.container-2 button {
+    background-color: #2563EB;
+    padding: 1rem 5rem;
+    border-radius: .6rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contato label,
+div p {
+    color: var(--colorText-2)
+}
+
+/* mensagem de status */
+.status-message {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #2563EB; /* azul para sucesso */
+}
+
+/* media querie - responsividade */
+@media (max-width: 625px) {
+    .containers {
+        flex-direction: column;
+    }
+
+    .contato .containers .container-1,
+    .container-2 {
+        width: 100%;
+    }
+}

@@ -1,0 +1,107 @@
+/* -- seção projetos -- */
+.secao-projetos {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--bgColor-escuro);
+    padding-top: 1rem;
+}
+
+.secao-projetos .projetos {
+    width: 80%;
+    padding: 4rem 0rem;
+    text-align: center;
+}
+
+.projetos h2 {
+    font-size: 2rem;
+    border-bottom: 3px solid #2563EB;
+    display: inline;
+    padding-bottom: 0.7rem;
+    color: var(--colorText-2);
+}
+
+.projetos h3 {
+    color: var(--colorText-2);
+    text-align: left;
+}
+
+.projetos img {
+    width: 16rem;
+    border-radius: .3rem;
+}
+
+/* -- seção de cards -- */
+.projetos .cards-project {
+    margin: 4rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projetos .cards-project .card {
+    padding: 1.5rem;
+    box-shadow: 0px 2px 3px var(--colorBorda);
+    background-color: var(--bgColor-cards);
+    border-radius: .7rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1 1 1;
+    flex-wrap: wrap;
+}
+
+
+/* -- butãos do card -- */
+.card-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card-buttons a {
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 3px var(--colorBorda);
+    gap: .2rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+    color: var(--colorText-2);
+    background-color: var(--gbColor-linksCards);
+}
+
+.projetos .card .card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+svg {
+    color: var(--iconsColor);
+    width: 1rem;
+}
+
+/* responsivo */
+@media (max-width: 650px) {
+    .projetos .cards-project .card {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        text-align: center;
+    }
+
+    .projetos .cards-project .card img {
+        width: 100%
+    }
+
+    .secao-projetos .projetos {
+        width: 100%
+    }
+}

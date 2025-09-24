@@ -1,0 +1,45 @@
+.rodape {
+    background-color: var(--bgColor-escuro);
+    padding: 3rem 0rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.rodape .limite {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.rodape .limite a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2563EB;
+    text-decoration: none;
+}
+
+.rodape .limite p {
+    color: #636467;
+}
+
+.rodape div #seta-voltar {
+    background-color: #DFDEDD;
+    padding: .8rem;
+    border-radius: 50%;
+    display: flex;
+}
+
+/* responsivo */
+@media (max-width: 620px) {
+    .rodape .limite #logo {
+        display: none;
+    }
+
+    .rodape .limite {
+        justify-content: center;
+    }
+}

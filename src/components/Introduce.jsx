@@ -1,0 +1,39 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
+
+import '/src/components/Introduce.css'
+
+function Introduce() {
+    return (
+        <main className='introdution'>
+            <section>
+                <div className='container-01'>
+                    <div className='myName'>
+                        <span>Olá, eu sou</span>
+                        <h1>Gleidson Lima</h1>
+                        <h2>Desenvolvedor Front-End</h2>
+                        <p>Apaixonado por criar soluções digitais inovadoras e impactantes</p>
+                    </div>
+                    <div className='link-cv'>
+                        <a href="#secao-projetos" className='projetos hover'>Meus projetos <FontAwesomeIcon icon={faArrowDown}style={{color: "#fff"}} /></a>
+                        <a href="/public/GleidsonLima.pdf" download={"GleidsonLima.pdf"} className='cv hover'>Baixar CV <FontAwesomeIcon icon={faFileArrowDown} /></a>
+                    </div>
+                    <div className='linkedin-cv'>
+                        <a href="https://github.com/Gleidsonj" target='_blank'><FontAwesomeIcon icon={faGithub} className='icon  hover' size='2x'/></a>
+
+                        <a href="https://www.linkedin.com/in/gleidsonsant/" target='_blank'><FontAwesomeIcon icon={faLinkedinIn} className='icon  hover' size="2x" /></a>
+                    </div>
+                </div>
+
+                <div className='container-02'>
+                    
+                </div>
+            </section>
+        </main>
+    )
+}
+
+export default Introduce;

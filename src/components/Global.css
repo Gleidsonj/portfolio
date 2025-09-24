@@ -1,0 +1,77 @@
+/* -- variáveis globais -- */
+:root {
+    /* cor de fundo de cada seção padrão */
+    --bgColor-claro: #fff;
+    --bgColor-escuro: #FAFCFD;
+
+    /* cor dos paragrafos */
+    --colorText-1: #09090bcc;
+    --colorText-2: #000;
+    --colorText-3: #3A3A3C;
+    --colorText-4: #525254;
+
+    /* cor do titulo */
+
+
+    /* cor do links */
+    --colorText-1: #09090bcc;
+
+    /* box-shadow */
+    --colorBorda: #F1F3F4;
+
+    /* cor de fundo dos cards */
+    --bgColor-cards: #fff;
+
+    /* fundo dos links - cards */
+    --gbColor-linksCards: #fff;
+
+    /* icons color */
+    --iconsColor: #000000;
+}
+
+[data-theme="dark"] {
+    --bgColor-claro: #09090B;
+    --bgColor-escuro: #0F121A;
+
+    /* cor dos paragrafos */
+    --colorText-1: #C4CACA;
+    --colorText-2: #fff;
+    --colorText-3: #fafafacc;
+    --colorText-4: #525254;
+
+    /* box-shadow */
+    --colorBorda: #131D30;
+
+    /* cor de fundo dos cards */
+    --bgColor-cards: #09090B;
+
+    /* fundo dos links - cards */
+    --gbColor-linksCards: #09090B;
+
+    /* icons color */
+    --iconsColor: #fff;
+}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+    font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+}
+
+
+/* estilizações globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hover {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.hover:hover{
+    transform: scale(1.1);
+}

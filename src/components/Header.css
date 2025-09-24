@@ -1,0 +1,94 @@
+/* -- Header -- */
+header {
+    display: flex;
+    justify-content: center;
+    background: var(--bgColor-claro);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+header .cabecalho {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2563EB;
+    text-decoration: none;
+}
+
+header nav {
+    display: flex;
+    gap: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--colorText-3);
+    transition: 0.3s;
+    font-size: 1rem;
+}
+
+header nav a:hover {
+    color: #2563EB;
+}
+
+header .navButtons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* -- button dark mode -- */
+button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* inventando moda */
+/* 🔹 Ícone do menu hamburguer */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: var(--colorTh-black);
+}
+
+
+/* -- mobile - menu hamburguer   */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navBar {
+    position: absolute;
+    top: 70px; /* altura do header */
+    right: 0;
+    width: 220px;
+    background: var(--bgColor-claro);
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+
+    /* esconde por padrão */
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navBar.ativo {
+    transform: translateX(0); /* aparece */
+  }
+}

@@ -1,0 +1,111 @@
+.introdution {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--bgColor-claro);
+}
+
+.introdution section {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.introdution .container-01 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.introdution .container-01 .myName {
+    line-height: 2rem;
+}
+
+.introdution .container-01 .myName span {
+    color: #2563EB;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.introdution .container-01 .myName h1 {
+    font-size: 3.75rem;
+    margin: 1rem 0 2rem 0;
+    color: var(--colorText-2);
+}
+
+.introdution .container-01 .myName h2 {
+    color: var(--colorText-1);
+    font-size: 2rem;
+    margin-bottom: .9rem;
+}
+
+.introdution .container-01 .myName p {
+    color: var(--colorText-1);
+    opacity: 1;
+}
+
+/* -- link cv --*/
+.link-cv .projetos,
+.cv {
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.link-cv .projetos {
+    background-color: #3A72EC;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.link-cv .cv {
+    color: #000;
+    border: 1px solid var(--colorText-4);
+    color: var(--colorText-2)
+}
+
+/* -- linkedin e curriculo -- */
+.linkedin-cv {
+    display: flex;
+    gap: 15px;
+}
+
+/*-- foto --*/
+.container-02 img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.introdution .icon {
+    color: var(--iconsColor)
+}
+
+/* media querie - responsividade */
+
+@media (max-width: 520px) {
+    .introdution .container-01 .myName h1 {
+        font-size: 3rem;
+        margin: 1rem 0 2rem 0;
+        color: var(--colorText-2);
+    }
+}
+
+@media (max-width: 420px) {
+    .introdution .container-01 .myName {
+        line-height: 2rem;
+    }
+
+    .introdution .container-01 .myName h1 {
+        font-size: 2.5rem;
+        margin: 1rem 0rem
+    }
+
+    .introdution .container-01 .myName h2 {
+        font-size: 2rem;
+    }
+
+}
