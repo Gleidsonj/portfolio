@@ -108,4 +108,8 @@
         font-size: 2rem;
     }
 
+    .link-cv .projetos,
+    .cv {
+        padding: 8px 12px;
+    }
 }
