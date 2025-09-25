@@ -11,7 +11,7 @@ function Projetos() {
                 <section className='cards-project'>
 
                     <div className="card">
-                        <img src="/public/hospedagem.png" alt="" />
+                        <img src={`$process.env.PUBLIC_URL/hospedagem.png`} alt="" />
                         <div className='card-text'>
                             <h3>AlfaTech</h3>
                             <div className='card-buttons'>
