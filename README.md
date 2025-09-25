@@ -1,12 +1,44 @@
-# React + Vite
+# 🌐 Portfólio - Gleidson Lima
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu portfólio pessoal desenvolvido em **React**, utilizando **HTML** e **CSS**, com funcionalidades como **Dark Mode**, **uso de `useState`** e layout **responsivo**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎯 Objetivo do Projeto
 
-## Expanding the ESLint configuration
+Criar um portfólio moderno para apresentar meus projetos, habilidades e contato, com foco em experiência de usuário, responsividade e design atrativo. Também utilizei React para criar componentes reutilizáveis e gerenciar estados da interface.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- **React.js**  
+- **HTML5**  
+- **CSS3**  
+- **JavaScript** (ES6+)  
+- **useState** (para gerenciamento de estados)  
+- Responsividade com CSS Flexbox / Grid  
+- Dark Mode com troca de tema via `useState`
+
+---
+
+## 💡 Funcionalidades
+
+- **Dark Mode** — alternância entre tema claro e escuro usando `useState`.  
+- **Layout Responsivo** — adaptação automática para diferentes tamanhos de tela (desktop, tablet e mobile).  
+- **Componentização** — estrutura organizada com múltiplos componentes React.  
+- **Links para projetos** — visualização e acesso aos meus trabalhos desenvolvidos.  
+- **Seção de Contato** — formulário simples para envio de mensagens.  
+
+---
+
+## 🚀 Como Executar o Projeto Localmente
+
+### Pré-requisitos:
+- Node.js instalado  
+- NPM ou Yarn instalado  
+
+### Passos:
+1. Clone este repositório:
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
