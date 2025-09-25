@@ -1,6 +1,7 @@
 import '/src/components/Projetos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEye } from '@fortawesome/free-solid-svg-icons';
+import { faEye, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Projetos() {
     return (
@@ -11,19 +12,15 @@ function Projetos() {
 
                     {/* Projeto AlfaTech */}
                     <div className="card">
-                        <img src="/hospedagem.png" alt="AlfaTech" />
+                        <img src="/hospedagem.png" alt="Projeto AlfaTech" />
                         <div className='card-text'>
                             <h3>AlfaTech</h3>
                             <div className='card-buttons'>
-                                <a href="https://site-hospedagem-rouge.vercel.app" target='_blank' className='hover'>
+                                <a href="https://site-hospedagem-rouge.vercel.app" target='_blank' rel="noopener noreferrer" className='hover'>
                                     Deploy <FontAwesomeIcon icon={faEye} className='iconsColor' size="1x" />
                                 </a>
-                                <a href="https://github.com/Gleidsonj/Website-Hospedagem" target='_blank' className='hover'>
-                                    Github
-                                    <svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <title>GitHub</title>
-                                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 ..."></path>
-                                    </svg>
+                                <a href="https://github.com/Gleidsonj/Website-Hospedagem" target='_blank' rel="noopener noreferrer" className='hover'>
+                                    Github <FontAwesomeIcon icon={faGithub} size="1x" />
                                 </a>
                             </div>
                         </div>
@@ -31,19 +28,15 @@ function Projetos() {
 
                     {/* Projeto Pet Boutique */}
                     <div className="card">
-                        <img src="/pet-bouquite.png" alt="Pet Boutique" />
+                        <img src="/pet-bouquite.png" alt="Projeto Pet Boutique" />
                         <div className='card-text'>
                             <h3>Pet Boutique</h3>
                             <div className='card-buttons'>
-                                <a href="https://pet-shop-ten-iota.vercel.app" target='_blank' className='hover'>
+                                <a href="https://pet-shop-ten-iota.vercel.app" target='_blank' rel="noopener noreferrer" className='hover'>
                                     Deploy <FontAwesomeIcon icon={faEye} className='iconsColor' size="1x" />
                                 </a>
-                                <a href="https://github.com/Gleidsonj/Site-Petshop" target='_blank' className='hover'>
-                                    Github
-                                    <svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <title>GitHub</title>
-                                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 ..."></path>
-                                    </svg>
+                                <a href="https://github.com/Gleidsonj/Site-Petshop" target='_blank' rel="noopener noreferrer" className='hover'>
+                                    Github <FontAwesomeIcon icon={faGithub} size="1x" />
                                 </a>
                             </div>
                         </div>
@@ -51,19 +44,15 @@ function Projetos() {
 
                     {/* Projeto Pousada Secreta */}
                     <div className="card">
-                        <img src="/pousada-secreta.png" alt="Pousada Secreta" />
+                        <img src="/pousada-secreta.png" alt="Projeto Pousada Secreta" />
                         <div className='card-text'>
                             <h3>Pousada Secreta</h3>
                             <div className='card-buttons'>
-                                <a href="https://site-pousada-nine.vercel.app" target='_blank' className='hover'>
+                                <a href="https://site-pousada-nine.vercel.app" target='_blank' rel="noopener noreferrer" className='hover'>
                                     Deploy <FontAwesomeIcon icon={faEye} className='iconsColor' size="1x" />
                                 </a>
-                                <a href="https://github.com/Gleidsonj/SIte-Pousada" target='_blank' className='hover'>
-                                    Github
-                                    <svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                        <title>GitHub</title>
-                                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 ..."></path>
-                                    </svg>
+                                <a href="https://github.com/Gleidsonj/SIte-Pousada" target='_blank' rel="noopener noreferrer" className='hover'>
+                                    Github <FontAwesomeIcon icon={faGithub} size="1x" />
                                 </a>
                             </div>
                         </div>
