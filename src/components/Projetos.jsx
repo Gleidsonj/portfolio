@@ -1,7 +1,6 @@
-import '/src/components/Projetos.css'
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEye } from '@fortawesome/free-solid-svg-icons'
+import '/src/components/Projetos.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 
 function Projetos() {
     return (
@@ -11,40 +10,54 @@ function Projetos() {
                 <section className='cards-project'>
 
                     <div className="card">
-                        <img src={`$process.env.PUBLIC_URL/hospedagem.png`} alt="" />
+                        <img src="/hospedagem.png" alt="AlfaTech" />
                         <div className='card-text'>
                             <h3>AlfaTech</h3>
                             <div className='card-buttons'>
-                                <a href="site-hospedagem-rouge.vercel.app" target='_blank' className='hover'>Deploy <FontAwesomeIcon icon={faEye} className='iconsColor' size="1x" />
+                                <a href="https://site-hospedagem-rouge.vercel.app" target='_blank' className='hover'>
+                                    Deploy <FontAwesomeIcon icon={faEye} className='iconsColor' size="1x" />
                                 </a>
-                                <a href="https://github.com/Gleidsonj/Website-Hospedagem" target='_blank' className='hover'>Github <svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg></a>
+                                <a href="https://github.com/Gleidsonj/Website-Hospedagem" target='_blank' className='hover'>
+                                    Github {/* ícone SVG */}
+                                </a>
                             </div>
                         </div>
                     </div>
+
                     <div className="card">
-                        <img src="/public/pet-bouquite.png" alt="" />
+                        <img src="/pet-bouquite.png" alt="Pet Boutique" />
                         <div className='card-text'>
                             <h3>Pet Boutique</h3>
                             <div className='card-buttons'>
-                                <a href="pet-shop-ten-iota.vercel.app" target='_blank' className='hover'>Deploy <FontAwesomeIcon icon={faEye} className='iconsColor' size="1x" /></a>
-                                <a href="https://github.com/Gleidsonj/Site-Petshop" target='_blank' className='hover'>Github <svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg></a>
+                                <a href="https://pet-shop-ten-iota.vercel.app" target='_blank' className='hover'>
+                                    Deploy <FontAwesomeIcon icon={faEye} className='iconsColor' size="1x" />
+                                </a>
+                                <a href="https://github.com/Gleidsonj/Site-Petshop" target='_blank' className='hover'>
+                                    Github {/* ícone SVG */}
+                                </a>
                             </div>
                         </div>
                     </div>
+
                     <div className="card">
-                        <img src="/public/pousada-secreta.png" alt="" />
+                        <img src="/pousada-secreta.png" alt="Pousada Secreta" />
                         <div className='card-text'>
                             <h3>Pousada Secreta</h3>
                             <div className='card-buttons'>
-                                <a href="site-pousada-nine.vercel.app" target='_blank' className='hover'>Deploy <FontAwesomeIcon icon={faEye} className='iconsColor' size="1x" /></a>
-                                <a href="https://github.com/Gleidsonj/SIte-Pousada" target='_blank' className='hover'>Github <svg fill="currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" /></svg></a>
+                                <a href="https://site-pousada-nine.vercel.app" target='_blank' className='hover'>
+                                    Deploy <FontAwesomeIcon icon={faEye} className='iconsColor' size="1x" />
+                                </a>
+                                <a href="https://github.com/Gleidsonj/SIte-Pousada" target='_blank' className='hover'>
+                                    Github {/* ícone SVG */}
+                                </a>
                             </div>
                         </div>
                     </div>
+
                 </section>
             </section>
         </section>
-    )
+    );
 }
 
 export default Projetos;

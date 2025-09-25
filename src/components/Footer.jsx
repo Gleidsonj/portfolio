@@ -1,7 +1,7 @@
 import '/src/components/Footer.css';
 
-function Footer(){
-    return(
+function Footer() {
+    return (
         <section className='rodape'>
             <section className='limite'>
                 <div id='logo'>
@@ -12,10 +12,12 @@ function Footer(){
                 </div>
             </section>
             <div>
-                <a className='hover' id='seta-voltar' href="#"><img src="./public/seta-cima.svg" alt="" /></a>
+                <a className='hover' id='seta-voltar' href="#">
+                    <img src="/seta-cima.svg" alt="Voltar ao topo" />
+                </a>
             </div>
         </section>
-    )
+    );
 }
 
 export default Footer;
