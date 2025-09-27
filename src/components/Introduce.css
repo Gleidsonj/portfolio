@@ -96,7 +96,7 @@
 /* media querie - responsividade */
 
 @media (max-width: 1000px) {
-    .container-02 img {
+    .container-02 {
         display: none;
     }
 }
