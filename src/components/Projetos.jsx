@@ -57,8 +57,8 @@ function Projetos() {
                             </div>
                         </div>
                     </div>
-
                 </section>
+                <a href="https://github.com/Gleidsonj?tab=repositories" id='projetos' className='hover' target='_blank'>Ver todos no Github <FontAwesomeIcon icon={faGithub} size="1x" /></a>
             </section>
         </section>
     );

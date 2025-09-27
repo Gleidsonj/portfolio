@@ -81,6 +81,19 @@
     gap: 2rem;
 }
 
+/*-- Button de mais projetos --*/
+#projetos {
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 10px;
+
+    color: #000;
+    border: 1px solid var(--colorText-4);
+    color: var(--colorText-2);
+    font-size: .9rem;
+    background-color: var(--bgColor-cards);
+}
+
 svg {
     color: var(--iconsColor);
     width: 1rem;

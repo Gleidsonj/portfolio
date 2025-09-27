@@ -12,6 +12,8 @@
     display: flex;
     width: 80%;
     margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .introdution .container-01 {
@@ -26,7 +28,6 @@
 
 .introdution .container-01 .myName span {
     color: #2563EB;
-    font-weight: 500;
     font-size: 1.1rem;
 }
 
@@ -74,10 +75,18 @@
 }
 
 /*-- foto --*/
+.container-02 {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
 .container-02 img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+    width: 75%;
+    border-radius: 1.7rem;
+    justify-content: flex-end;
 }
 
 .introdution .icon {
@@ -85,6 +94,12 @@
 }
 
 /* media querie - responsividade */
+
+@media (max-width: 1000px) {
+    .container-02 img {
+        display: none;
+    }
+}
 
 @media (max-width: 520px) {
     .introdution .container-01 .myName h1 {

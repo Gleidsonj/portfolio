@@ -15,7 +15,7 @@ function Introduce() {
                         <span>Olá, eu sou</span>
                         <h1>Gleidson Lima</h1>
                         <h2>Desenvolvedor Front-End</h2>
-                        <p>Apaixonado por criar soluções digitais inovadoras e impactantes</p>
+                        <p>Fascinado em criar soluções digitais inovadoras e impactantes</p>
                     </div>
 
                     <div className='link-cv'>
@@ -40,7 +40,7 @@ function Introduce() {
                 </div>
 
                 <div className='container-02'>
-                    {/* Espaço para imagens ou conteúdo extra */}
+                    <img src="/foto-perfil.jpg" alt="" />
                 </div>
             </section>
         </main>
