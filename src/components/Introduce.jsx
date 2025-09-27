@@ -13,7 +13,7 @@ function Introduce() {
                 <div className='container-01'>
                     <div className='myName'>
                         <span>Olá, eu sou</span>
-                        <h1>Gleidson Lima</h1>  
+                        <h1>Gleidson Lima</h1>
                         <h2>Desenvolvedor Front-End</h2>
                         <p>Fascinado em criar soluções digitais inovadoras e impactantes.</p>
                     </div>
