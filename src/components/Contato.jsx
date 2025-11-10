@@ -54,7 +54,7 @@ function Contato() {
                                 </div>
                                 <div className='card-text'>
                                     <p>Localização</p>
-                                    <span>Fortaleza, Ceará, Brasil</span>
+                                    <span>Capivari de Baixo, SC, Brasil</span>
                                 </div>
                             </div>
 

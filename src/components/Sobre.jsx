@@ -11,7 +11,7 @@ function Sobre() {
                 <h2>Sobre Mim</h2>
                 <div className='container-1'>
                     <div className='secao-1'>
-                        <p>Sou Gleidson Lima, tenho 23 anos e estudo Análise e Desenvolvimento de Sistemas. Meu foco é me tornar um desenvolvedor full stack, criando soluções modernas e funcionais. Tenho experiência com HTML, CSS, JavaScript, React, Git e GitHub, e estou sempre em busca de novas ferramentas e conhecimentos para entregar projetos cada vez melhores.</p>
+                        <p>Sou Gleidson Lima, tenho 23 anos e estudo Análise e Desenvolvimento de Sistemas. Meu foco é me tornar um desenvolvedor full stack, criando soluções modernas e funcionais. Tenho experiência com HTML, CSS, JavaScript, TypeScript, React, Git e GitHub, e estou sempre em busca de novas ferramentas e conhecimentos para entregar projetos cada vez melhores.</p>
                     </div>
                     <div className='secao-2'>
                         <div>
@@ -26,10 +26,6 @@ function Sobre() {
                         </div>
                     </div>
                 </div>
-
-
-
-
             </section>
         </section>
     )
