@@ -14,8 +14,8 @@ function Introduce() {
                     <div className='myName'>
                         <span>Olá, eu sou</span>
                         <h1>Gleidson Lima</h1>
-                        <h2>Desenvolvedor Front-End</h2>
-                        <p>Fascinado em criar soluções digitais inovadoras e impactantes.</p>
+                        <h2>Desenvolvedor Full Stack</h2>
+                        <p>Gosto de criar coisas úteis e bem feitas.</p>
                     </div>
 
                     <div className='link-cv'>
