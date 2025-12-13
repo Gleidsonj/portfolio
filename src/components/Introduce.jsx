@@ -23,7 +23,7 @@ function Introduce() {
                             Meus projetos <FontAwesomeIcon icon={faArrowDown} style={{ color: "#fff" }} />
                         </a>
 
-                        <a href="/GleidsonLima-Curriculo.pdf" download="GleidsonLima-Curriculo.pdf" className='cv hover'>
+                        <a href="/GleidsonLima-Curriculo.pdf" download="GleidsonLima-Desenvolvedor.pdf" className='cv hover'>
                             Baixar CV <FontAwesomeIcon icon={faFileArrowDown} />
                         </a>
                     </div>
