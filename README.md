@@ -1,10 +1,10 @@
-# 🌐 Portfólio - Gleidson Lima
+#  Portfólio - Gleidson Lima
 
 Este é meu portfólio pessoal desenvolvido em **React**, utilizando **HTML** e **CSS**, com funcionalidades como **Dark Mode**, **uso de `useState`** e layout **responsivo**.
 
 ---
 
-## 🎯 Objetivo do Projeto
+##  Objetivo do Projeto
 
 Criar um portfólio moderno para apresentar meus projetos, habilidades e contato, com foco em experiência de usuário, responsividade e design atrativo. Também utilizei React para criar componentes reutilizáveis e gerenciar estados da interface.
 
@@ -22,7 +22,7 @@ Criar um portfólio moderno para apresentar meus projetos, habilidades e contato
 
 ---
 
-## 💡 Funcionalidades
+##  Funcionalidades
 
 - **Dark Mode** — alternância entre tema claro e escuro usando `useState`.  
 - **Layout Responsivo** — adaptação automática para diferentes tamanhos de tela (desktop, tablet e mobile).  
@@ -32,7 +32,7 @@ Criar um portfólio moderno para apresentar meus projetos, habilidades e contato
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+##  Como Executar o Projeto Localmente
 
 ### Pré-requisitos:
 - Node.js instalado  
